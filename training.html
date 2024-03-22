@@ -1,79 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
-        <title>Infinity Fryer Shop | Home</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/training.css" /> <!-- Link to training.css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Infinity Fryer Shop | Training</title>
+</head>
 <body>
 
-       <!-- header section -->
-    <header>
-        <img src="img/logo.png" alt="Infinity Fryer Logo" id="logo"> <!-- Added logo -->
-        <h1>Welcome to Infinity Fryer Shop</h1>
-    </header>
+<header>
+    <img src="img/logo.png" alt="Infinity Fryer Logo" id="logo"> <!-- Added logo -->
+    <h1>Welcome to Infinity Fryer Shop</h1>
+</header>
 
-        <!-- nav section -->
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="products.html">Products</a>
-            <a href="special.html">Specials</a>
-            <a href="contact.html">Contact</a>
-            <a href="training.html">Training</a>
-        </nav>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="products.html">Products</a>
+    <a href="special.html">Specials</a>
+    <a href="contact.html">Contact</a>
+    <a href="training.html">Training</a>
+</nav>
 
-    <section>
-        <h2>Training</h2>
-        <p>Learn how to use our deep fryers effectively with our training resources.</p>
-        <div class="courses">
-            <div class="course">
-                <h3>Basic Fryer Operation</h3>
-                <p>Duration: 1 hour</p>
-                <p>Description: Learn the basics of operating our deep fryers safely and efficiently.</p>
-                <a href="https://en.wikipedia.org/wiki/Deep_fryer">Learn More</a>
-            </div>
-            <div class="course">
-                <h3>Advanced Fryer Techniques</h3>
-                <p>Duration: 2 hours</p>
-                <p>Description: Master advanced frying techniques to create perfect crispy delights every time.</p>
-                <a href="https://en.wikipedia.org/wiki/Deep_fryer">Learn More</a>
-            </div>
-            <div class="course">
-                <h3>Dual Fryer Operation</h3>
-                <p>Duration: 2.5 hours</p>
-                <p>Description: Dual fryer operation course get you learn how to use dual fryer effectively.</p>
-                <a href="https://en.wikipedia.org/wiki/Deep_fryer">Learn More</a>
-            </div>
-            <div class="course">
-                <h3>Triple Fryer Operation</h3>
-                <p>Duration: 3 hours</p>
-                <p>Description: Triple fryer operation course get you learn how to use triple fryer effectively.</p>
-                <a href="https://en.wikipedia.org/wiki/Deep_fryer">Learn More</a>
-            </div>
-            <!-- Add more courses as needed -->
-        </div>
-    </section>
+<section>
+    <h2 class="training">Training</h2>
+    <p class="desc">Learn how to use our deep fryers effectively with our training resources.</p>
 
-        <!-- Footer section -->
-    <footer>
-        <p>
-            &copy;Copyrights 2024. All Rights Reserved
-        </p>
-        <p>
-            Anant Pankajkumar Sirsath<br>
-            c0930793
-        </p>
-        <p>
-            <a href="mailto:infinityfryer@ottawa.ca">infinityfryer@ottawa.ca</a>
-        </p>
-        <p>
-            <a href="tel:+1848-552-3656">8485523656</a>
-        </p>
-    </footer>
+    <!-- Hard-coded HTML table -->
+    <table id="training-schedule">
+        <caption>Product Training Schedule</caption>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Date</th>
+                <th>Price</th>
+                <th>Length</th>
+                <th>Room</th>
+                <th>Instructor</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Hard-coded rows -->
+            <tr>
+                <td>Basic Fryer Operation</td>
+                <td>January 10, 2024</td>
+                <td>$50</td>
+                <td>2 hours</td>
+                <td>Room 101</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>Advanced Fryer Techniques</td>
+                <td>January 20, 2024</td>
+                <td>$70</td>
+                <td>1 hours</td>
+                <td>Room 103</td>
+                <td>Taylor Swift</td>
+            </tr>
+            <tr>
+                <td>Dual Fryer Operation</td>
+                <td>January 30, 2024</td>
+                <td>$75</td>
+                <td>1.5 hours</td>
+                <td>Room 102</td>
+                <td>Prem Patel</td>
+            </tr>
+            <tr>
+                <td>Triple Fryer Operation</td>
+                <td>March 1, 2024</td>
+                <td>$45</td>
+                <td>2.5 hours</td>
+                <td>Room 101</td>
+                <td>Shrey Parikh</td>
+            </tr>
+        </tbody>
+    </table>
+
+        </br>
+
+    <div class="course">
+        <h3>Basic Fryer Operation</h3>
+        <p>Description: Learn the basics of operating our deep fryers safely and efficiently.</p>
+        <a href="https://en.wikipedia.org/wiki/Deep_fryer">Learn More</a>
+    </div>
+    <div class="course">
+        <h3>Advanced Fryer Techniques</h3>
+        <p>Description: Master advanced frying techniques to create perfect crispy delights every time.</p>
+        <a href="https://en.wikipedia.org/wiki/Deep_fryer">Learn More</a>
+    </div>
+    <div class="course">
+        <h3>Dual Fryer Operation</h3>
+        <p>Description: Dual fryer operation course get you learn how to use dual fryer effectively.</p>
+        <a href="https://en.wikipedia.org/wiki/Deep_fryer">Learn More</a>
+    </div>
+    <div class="course">
+        <h3>Triple Fryer Operation</h3>
+        <p>Description: Triple fryer operation course get you learn how to use triple fryer effectively.</p>
+        <a href="https://en.wikipedia.org/wiki/Deep_fryer">Learn More</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>
+        &copy;Copyrights 2024. All Rights Reserved
+    </p>
+    <p>
+        Anant Pankajkumar Sirsath<br>
+        c0930793
+    </p>
+    <p>
+        <a href="mailto:infinityfryer@ottawa.ca">infinityfryer@ottawa.ca</a>
+    </p>
+    <p>
+        <a href="tel:+1848-552-3656">8485523656</a>
+    </p>
+</footer>
+
 </body>
 </html>
