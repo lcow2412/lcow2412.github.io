@@ -285,3 +285,38 @@ section li {
     text-align: center;
     padding-right: 70px;
 }
+/* media.css */
+
+main {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+}
+
+.video-wrapper video {
+    width: 48%; /* Adjust as needed */
+}
+
+.audio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+}
+
+.audio-wrapper audio {
+    width: 48%; /* Adjust as needed */
+}
